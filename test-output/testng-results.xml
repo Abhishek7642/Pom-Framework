@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[Ab]]>
+    </line>
+    <line>
+      <![CDATA[EF]]>
+    </line>
+    <line>
+      <![CDATA[Cd]]>
+    </line>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="64" started-at="2018-10-01T05:16:18Z" finished-at="2018-10-01T05:16:18Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="64" started-at="2018-10-01T05:16:18Z" finished-at="2018-10-01T05:16:18Z">
+      <class name="scripts.TestDemo">
+        <test-method status="PASS" signature="openapp()[pri:0, instance:scripts.TestDemo@2bbf4b8b]" name="openapp" is-config="true" duration-ms="8" started-at="2018-10-01T05:16:18Z" finished-at="2018-10-01T05:16:18Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Ab]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- openapp -->
+        <test-method status="PASS" signature="abc()[pri:0, instance:scripts.TestDemo@2bbf4b8b]" name="abc" duration-ms="9" started-at="2018-10-01T05:16:18Z" finished-at="2018-10-01T05:16:18Z">
+          <reporter-output>
+            <line>
+              <![CDATA[EF]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- abc -->
+        <test-method status="PASS" signature="closeapp()[pri:0, instance:scripts.TestDemo@2bbf4b8b]" name="closeapp" is-config="true" duration-ms="2" started-at="2018-10-01T05:16:18Z" finished-at="2018-10-01T05:16:18Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Cd]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- closeapp -->
+      </class> <!-- scripts.TestDemo -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
